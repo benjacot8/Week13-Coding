@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>crd-app</title>
+  </head>
+  <body>
+   
+    <h1>Week 12 Project: Create, Read, Update, Delete App</h1>
+
+    <!-- Description of the app -->
+    <p>This is a simple CRUD app for managing a grocery list.</p>
+
+    <!-- Image of fruits -->
+    <img src="/fruits.jpg" alt="Fruits" width="400" height="400">
+
+
+  <h1 class="mb-4">Shopping List</h1>
+
+  <!-- Form takes inputs for grocery item name and quantity -->
+  <form id="shoppingForm" class="mb-4">
+
+    <input
+      type="text"
+      id="itemInput"
+      class="form-control mb-2"
+      placeholder="Item name"
+      required
+    >
+
+    <input
+      type="number"
+      id="quantityInput"
+      class="form-control mb-2"
+      placeholder="Quantity"
+      required
+    >
+
+    <button class="btn btn-primary">
+      Add Item
+    </button>
+
+  </form>
+
+  <!-- DISPLAY ITEMS -->
+  <ul id="shoppingList" class="list-group"></ul>
+    
+  <!--Vite Script Tag-->
+  <script type="module" src="/src/main.ts"></script>
+
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "shoppingList": [
+    {
+      "item": "Apples",
+      "quantity": "3",
+      "id": "cd5e"
+    },
+    {
+      "id": "4e2c",
+      "item": "Bananas",
+      "quantity": "4"
+    },
+    {
+      "id": "a72c",
+      "item": "Grapes",
+      "quantity": "5"
+    },
+    {
+      "id": "a7ff",
+      "item": "Cookies",
+      "quantity": "7"
+    }
+  ]
+}
